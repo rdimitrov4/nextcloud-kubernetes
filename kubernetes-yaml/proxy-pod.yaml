@@ -6,11 +6,11 @@ metadata:
   name: proxy
 
 spec:
+  nodeName: linux
   containers:
   - env:
     - name: TZ
       value: Europe/Berlin
-  nodeName: linux
     name: proxy
     image: nginx
     ports:
